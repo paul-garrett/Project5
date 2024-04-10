@@ -20,4 +20,4 @@ public record Job (
         String skill1,
         @NotBlank(message = "Skill 2 must be defined")
         String skill2
-){}
+) {}
